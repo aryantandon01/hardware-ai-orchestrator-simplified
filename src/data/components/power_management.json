@@ -1,0 +1,48 @@
+{
+  "components": [
+    {
+      "component_id": "TPS54560-Q1",
+      "name": "TPS54560-Q1 Buck Converter",
+      "manufacturer": "Texas Instruments", 
+      "part_number": "TPS54560DDAR",
+      "category": "power_management",
+      "subcategory": "Buck Controller",
+      "electrical_specs": {
+        "operating_voltage_min": 4.5,
+        "operating_voltage_max": 60.0,
+        "supply_current_typical": 1.8,
+        "output_current_max": 5000.0,
+        "efficiency_typical": 95.0
+      },
+      "thermal_specs": {
+        "operating_temp_min": -40.0,
+        "operating_temp_max": 125.0,
+        "thermal_resistance_ja": 26.0,
+        "power_dissipation_max": 2.4
+      },
+      "package_info": {
+        "package_type": "HSOP",
+        "pin_count": 8,
+        "package_size": "3.9x4.9",
+        "pitch": 1.27
+      },
+      "compliance_standards": ["AEC-Q100", "RoHS", "REACH"],
+      "automotive_grade": "1",
+      "pricing": {
+        "price_1k": 3.25,
+        "price_10k": 2.85, 
+        "price_100k": 2.15,
+        "lead_time_weeks": 16
+      },
+      "description": "60V, 5A Synchronous Step-Down SWIFT Converter",
+      "key_features": [
+        "4.5V to 60V input voltage range",
+        "5A continuous output current",
+        "Integrated high-side and low-side MOSFETs",
+        "Automotive qualified AEC-Q100"
+      ],
+      "applications": ["Automotive", "Industrial"],
+      "keywords": ["buck converter", "automotive", "aec-q100", "switching", "60v"]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "component_id": "BME280",
+      "name": "BME280 Environmental Sensor",
+      "manufacturer": "Bosch",
+      "part_number": "BME280", 
+      "category": "sensors",
+      "subcategory": "Environmental Sensor",
+      "electrical_specs": {
+        "operating_voltage_min": 1.8,
+        "operating_voltage_max": 3.6,
+        "supply_current_typical": 3.4,
+        "supply_current_max": 12.1
+      },
+      "thermal_specs": {
+        "operating_temp_min": -40.0,
+        "operating_temp_max": 85.0
+      },  
+      "package_info": {
+        "package_type": "LGA",
+        "pin_count": 8,
+        "package_size": "2.5x2.5",
+        "height_max": 0.93
+      },
+      "compliance_standards": ["RoHS"],
+      "pricing": {
+        "price_1k": 2.92,
+        "price_10k": 2.50,
+        "price_100k": 2.08,
+        "lead_time_weeks": 10
+      },
+      "description": "Digital humidity, pressure and temperature sensor",
+      "key_features": [
+        "Temperature, humidity, pressure sensing",
+        "I2C and SPI interface",
+        "Low power consumption",
+        "High accuracy"
+      ],
+      "applications": ["IoT", "Weather Monitoring"],
+      "keywords": ["bme280", "environmental", "sensor", "temperature", "humidity", "pressure"]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "components": [
+    {
+      "component_id": "STM32F103C8T6",
+      "name": "STM32F103C8T6 Microcontroller",
+      "manufacturer": "STMicroelectronics",
+      "part_number": "STM32F103C8T6",
+      "category": "microcontroller",
+      "subcategory": "ARM Cortex-M3",
+      "electrical_specs": {
+        "operating_voltage_min": 2.0,
+        "operating_voltage_max": 3.6,
+        "supply_current_typical": 36.0,
+        "supply_current_max": 50.0
+      },
+      "thermal_specs": {
+        "operating_temp_min": -40.0,
+        "operating_temp_max": 85.0,
+        "storage_temp_min": -65.0,
+        "storage_temp_max": 150.0
+      },
+      "package_info": {
+        "package_type": "LQFP",
+        "pin_count": 48,
+        "package_size": "7x7",
+        "pitch": 0.5
+      },
+      "compliance_standards": ["RoHS", "REACH"],
+      "pricing": {
+        "price_1k": 2.50,
+        "price_10k": 1.80,
+        "price_100k": 1.25,
+        "lead_time_weeks": 12
+      },
+      "description": "32-bit ARM Cortex-M3 microcontroller with 64KB Flash, 20KB RAM",
+      "key_features": [
+        "ARM Cortex-M3 core",
+        "64KB Flash memory", 
+        "20KB SRAM",
+        "2x12-bit ADC"
+      ],
+      "applications": ["IoT", "Consumer Electronics"],
+      "keywords": ["stm32", "cortex-m3", "microcontroller", "32-bit", "arm"]
+    }
+  ]
+}

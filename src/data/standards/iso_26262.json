@@ -1,0 +1,16 @@
+{
+  "standard_id": "ISO-26262",
+  "name": "ISO 26262 Functional Safety",
+  "organization": "International Organization for Standardization",
+  "version": "2018",
+  "description": "Functional safety of electrical/electronic systems in road vehicles",
+  "scope": "Automotive functional safety",
+  "requirements": [
+    {
+      "requirement_id": "REQ-001",
+      "title": "ASIL Classification",
+      "description": "Automotive Safety Integrity Level determination",
+      "acceptance_criteria": "Pass risk assessment methodology"
+    }
+  ]
+}

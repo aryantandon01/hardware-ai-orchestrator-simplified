@@ -1,0 +1,28 @@
+{
+  "standard_id": "AEC-Q100",
+  "name": "AEC-Q100 Automotive Qualification",
+  "organization": "Automotive Electronics Council",
+  "version": "Rev-H",
+  "description": "Failure Mechanism Based Stress Test Qualification for Integrated Circuits",
+  "scope": "Automotive integrated circuits qualification",
+  "requirements": [
+    {
+      "requirement_id": "REQ-001",
+      "title": "Temperature Cycling",
+      "description": "Thermal stress testing",
+      "acceptance_criteria": "Pass -40°C to +125°C cycling without failure"
+    },
+    {
+      "requirement_id": "REQ-002",
+      "title": "HAST",
+      "description": "Highly Accelerated Stress Test",
+      "acceptance_criteria": "Pass 130°C, 85% RH conditions"
+    },
+    {
+      "requirement_id": "REQ-003",
+      "title": "Autoclave",
+      "description": "Pressure cooker test",
+      "acceptance_criteria": "Pass 121°C, 100% RH conditions"
+    }
+  ]
+}

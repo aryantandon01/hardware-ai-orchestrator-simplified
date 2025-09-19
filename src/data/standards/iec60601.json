@@ -1,0 +1,16 @@
+{
+  "standard_id": "IEC-60601",
+  "name": "IEC 60601 Medical Electrical Equipment",
+  "organization": "International Electrotechnical Commission",
+  "version": "3.1",
+  "description": "Safety and essential performance of medical electrical equipment",
+  "scope": "Medical electrical equipment and systems",
+  "requirements": [
+    {
+      "requirement_id": "REQ-001",
+      "title": "Basic Safety",
+      "description": "Protection against electrical hazards",
+      "acceptance_criteria": "Pass standard test procedures"
+    }
+  ]
+}
